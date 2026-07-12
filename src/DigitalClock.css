@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clock-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #101820;
+}
+
+.clock-card {
+  width: 420px;
+  padding: 40px;
+  text-align: center;
+  border-radius: 20px;
+  background: #1d2733;
+  color: white;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.clock-card h1 {
+  font-size: 3.5rem;
+  margin-bottom: 15px;
+}
+
+.clock-card h3 {
+  margin-bottom: 10px;
+  color: #00d8ff;
+}
+
+.clock-card p {
+  font-size: 1.1rem;
+  color: #ccc;
+}
